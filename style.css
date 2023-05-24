@@ -1,0 +1,27 @@
+#map {
+    height: 80vh;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+#random-button {
+    border-radius: 20px;
+    padding: 0 10px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+#random-button:hover {
+    background-color:rgb(129, 244, 100);
+    transform: scale(1.1);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #ddd;
+    padding: 10px;
+}
